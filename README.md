@@ -6,28 +6,28 @@ Clear information. Easy contact. No complexity.
 ## Available demos by industry
 
 - 🧽 Cleaning services  
-  https://vidalrenao.github.io/web-demos/cleaning/
+  https://vidal-renao.github.io/web-demos/cleaning/
 
 - ⚡ Electricians  
-  https://vidalrenao.github.io/web-demos/electrician/
+  https://vidal-renao.github.io/web-demos/electrician/
 
   - 🍽️ Restaurants  
-  https://vidalrenao.github.io/web-demos/restaurant/
+  https://vidal-renao.github.io/web-demos/restaurant/
 
 - 🚰 Plumber / Sanitary  
-  https://vidalrenao.github.io/web-demos/plumber/
+  https://vidal-renao.github.io/web-demos/plumber/
 
 - 🛠️ Handyman / Repairs  
-  https://vidalrenao.github.io/web-demos/handyman/
+  https://vidal-renao.github.io/web-demos/handyman/
 
 - ☕ Cafés  
-  https://vidalrenao.github.io/web-demos/cafe/
+  https://vidal-renao.github.io/web-demos/cafe/
 
 - 🥐 Bakery / Pastry  
-  https://vidalrenao.github.io/web-demos/bakery/
+  https://vidal-renao.github.io/web-demos/bakery/
 
 - 🚚 Moving services  
-  https://vidalrenao.github.io/web-demos/moving/
+  https://vidal-renao.github.io/web-demos/moving/
 
 ---
 
