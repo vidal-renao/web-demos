@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant – Website Demo</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <div class="brand">
+      <div class="brand__mark">🍽️</div>
+      <div class="brand__text">
+        <strong>Local Restaurant</strong>
+        <span>Fresh & welcoming</span>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero__grid">
+    <div>
+      <h1>Welcome to Our Restaurant</h1>
+      <p class="muted">
+        Fresh food. Friendly atmosphere.
+        Simple information and easy contact.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Reserve a table</a>
+        <a href="#menu" class="btn btn--secondary">View menu</a>
+      </div>
+    </div>
+
+    <div class="hero__card">
+      <ul>
+        <li>✔ Local cuisine</li>
+        <li>✔ Fresh ingredients</li>
+        <li>✔ Cozy atmosphere</li>
+        <li>✔ Take-away available</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="menu" class="section">
+  <div class="container">
+    <h2>Our Menu</h2>
+
+    <div class="grid grid--3">
+      <div class="card">Daily menu</div>
+      <div class="card">À la carte</div>
+      <div class="card">Desserts & drinks</div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section section--alt">
+  <div class="container">
+    <h2>About us</h2>
+
+    <div class="grid grid--3">
+      <div class="feature">Fresh ingredients</div>
+      <div class="feature">Friendly service</div>
+      <div class="feature">Local restaurant</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container contact">
+    <div class="contact__card">
+      <h2>Contact & Reservations</h2>
+      <p class="muted">
+        Call us or write to reserve a table.
+      </p>
+
+      <div class="contact__line">📞 +41 XX XXX XX XX</div>
+      <div class="contact__line">✉️ info@example.com</div>
+      <div class="contact__line">📍 Your region</div>
+    </div>
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps?q=Switzerland&output=embed"
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <span>© Demo – Restaurant</span>
+    <span>Website demo by Vidal Reñao</span>
+  </div>
+</footer>
+
+</body>
+</html>
