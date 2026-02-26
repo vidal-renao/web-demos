@@ -4,132 +4,151 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Website Demos – Vidal Reñao</title>
-
-  <style>
-    body {
-      font-family: system-ui, Arial, sans-serif;
-      background: #f6f9fc;
-      color: #1a1a1a;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      width: min(1100px, 90%);
-      margin: auto;
-      padding: 3rem 0;
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.5rem;
-    }
-
-    p {
-      color: #555;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .card {
-      background: white;
-      padding: 1.5rem;
-      border-radius: 10px;
-      text-decoration: none;
-      color: inherit;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
-    }
-
-    .card span {
-      font-size: 2rem;
-      display: block;
-      margin-bottom: 0.75rem;
-    }
-
-    footer {
-      margin-top: 4rem;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #777;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
+   
 </head>
 <body>
-
   <div class="container">
-    <header>
-      <h1>Website Demos</h1>
-      <p>Simple website examples for local businesses.</p>
-    </header>
 
-    <div class="grid">
-      <a href="cleaning/" class="card">
-        <span>🧽</span>
-        <strong>Cleaning services</strong>
-      </a>
+    <div class="topbar">
+      <div class="brand">
+        <div class="brand__mark">🌐</div>
+        <div class="brand__text">
+          <strong>Website Demos</strong>
+          <span>Vidal Reñao · IT Systems & Website Solutions</span>
+        </div>
+      </div>
 
-      <a href="electrician/" class="card">
-        <span>⚡</span>
-        <strong>Electricians</strong>
-      </a>
-
-      <a href="plumber/" class="card">
-        <span>🚰</span>
-        <strong>Plumber / Sanitary</strong>
-      </a>
-
-      <a href="handyman/" class="card">
-        <span>🛠️</span>
-        <strong>Handyman / Repairs</strong>
-      </a>
-
-      <a href="restaurant/" class="card">
-        <span>🍽️</span>
-        <strong>Restaurants</strong>
-      </a>
-
-      <a href="cafe/" class="card">
-        <span>☕</span>
-        <strong>Cafés</strong>
-      </a>
-
-      <a href="bakery/" class="card">
-        <span>🥐</span>
-        <strong>Bakery / Pastry</strong>
-      </a>
-
-      <a href="moving/" class="card">
-        <span>🚚</span>
-        <strong>Moving services</strong>
-      </a>
+      <div class="pill">✅ Mobilfreundlich · Klar · Schnell</div>
     </div>
-    <div style="text-align:center; margin-top: 2rem;">
-      <a href="https://wa.me/41779726299?text=Hello%2C%20I%20would%20like%20to%20see%20a%20website%20demo%20for%20my%20business."
-         style="display:inline-block; padding:0.9rem 1.2rem; border-radius:10px; background:#4fd1ff; color:#000; font-weight:700; text-decoration:none;"
-         target="_blank" rel="noopener">
-        Contact me on WhatsApp
-      </a>
-     </div>
-    
+
+    <section class="hero" id="top">
+      <div class="hero__grid">
+        <div>
+          <h1>Einfache Webseiten für lokale Betriebe</h1>
+          <p class="lead">
+            Diese Beispiele zeigen, wie eine kleine, professionelle Webseite aussehen kann:
+            klare Informationen, einfacher Kontakt und ein seriöser erster Eindruck.
+          </p>
+
+          <ul class="hero__bullets">
+            <li>Mehr Vertrauen: Öffnungszeiten, Leistungen, Kontakt – sofort sichtbar</li>
+            <li>Mehr Anfragen: WhatsApp, Telefon und E-Mail mit einem Klick</li>
+            <li>Ohne Aufwand: schlank, schnell und passend für kleine Unternehmen</li>
+          </ul>
+
+          <div class="actions">
+            <a class="btn btn--primary"
+               href="https://wa.me/41779726299?text=Guten%20Tag%2C%20ich%20habe%20Ihre%20Website-Beispiele%20gesehen%20und%20h%C3%A4tte%20eine%20kurze%20Frage."
+               target="_blank" rel="noopener">
+              💬 WhatsApp schreiben
+            </a>
+
+            <a class="btn btn--secondary" href="#demos">
+              Branchen ansehen
+            </a>
+          </div>
+        </div>
+
+        <aside class="sidecard">
+          <h3>So läuft es ab</h3>
+          <p>Einfach, schnell und unverbindlich.</p>
+          <ul class="steps">
+            <li class="step">
+              <div class="step__num">1</div>
+              <div class="step__text">Branche auswählen und Beispiel ansehen.</div>
+            </li>
+            <li class="step">
+              <div class="step__num">2</div>
+              <div class="step__text">Kurz per WhatsApp/Telefon Kontakt aufnehmen.</div>
+            </li>
+            <li class="step">
+              <div class="step__num">3</div>
+              <div class="step__text">Ich passe Inhalte, Design und Kontakt an Ihren Betrieb an.</div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="demos">
+      <h2>Website-Beispiele nach Branche</h2>
+      <p>Wählen Sie Ihre Branche aus und sehen Sie ein Beispiel.</p>
+
+      <div class="grid">
+        <a href="cleaning/" class="card">
+          <div class="icon">🧽</div>
+          <div>
+            <strong>Reinigung</strong>
+            <span>Leistungen, Kontakt, Anfrage</span>
+          </div>
+        </a>
+
+        <a href="electrician/" class="card">
+          <div class="icon">⚡</div>
+          <div>
+            <strong>Elektriker</strong>
+            <span>Installationen & Service</span>
+          </div>
+        </a>
+
+        <a href="plumber/" class="card">
+          <div class="icon">🚰</div>
+          <div>
+            <strong>Sanitär</strong>
+            <span>Reparaturen & Installationen</span>
+          </div>
+        </a>
+
+        <a href="handyman/" class="card">
+          <div class="icon">🛠️</div>
+          <div>
+            <strong>Handwerker</strong>
+            <span>Reparaturen & Unterhalt</span>
+          </div>
+        </a>
+
+        <a href="restaurant/" class="card">
+          <div class="icon">🍽️</div>
+          <div>
+            <strong>Restaurant</strong>
+            <span>Menü & Reservation</span>
+          </div>
+        </a>
+
+        <a href="cafe/" class="card">
+          <div class="icon">☕</div>
+          <div>
+            <strong>Café</strong>
+            <span>Kaffee & Angebot</span>
+          </div>
+        </a>
+
+        <a href="bakery/" class="card">
+          <div class="icon">🥐</div>
+          <div>
+            <strong>Bäckerei</strong>
+            <span>Produkte & Bestellungen</span>
+          </div>
+        </a>
+
+        <a href="moving/" class="card">
+          <div class="icon">🚚</div>
+          <div>
+            <strong>Umzug</strong>
+            <span>Angebot & Termin</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
     <footer>
       Website demos by Vidal Reñao
+      <span class="small">Kontakt: +41 77 972 62 99 · vidalrenao.lab@outlook.com</span>
     </footer>
-  </div>
 
+  </div>
+</body>
+</html>
 </body>
 </html>
