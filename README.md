@@ -11,14 +11,14 @@ Clear information. Easy contact. No complexity.
 - ⚡ Electricians  
   https://vidalrenao.github.io/web-demos/electrician/
 
+  - 🍽️ Restaurants  
+  https://vidalrenao.github.io/web-demos/restaurant/
+
 - 🚰 Plumber / Sanitary  
   https://vidalrenao.github.io/web-demos/plumber/
 
 - 🛠️ Handyman / Repairs  
   https://vidalrenao.github.io/web-demos/handyman/
-
-- 🍽️ Restaurants  
-  https://vidalrenao.github.io/web-demos/restaurant/
 
 - ☕ Cafés  
   https://vidalrenao.github.io/web-demos/cafe/
