@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Demos – Vidal Reñao</title>
+
+  <style>
+    body {
+      font-family: system-ui, Arial, sans-serif;
+      background: #f6f9fc;
+      color: #1a1a1a;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: auto;
+      padding: 3rem 0;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: #555;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    }
+
+    .card span {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Website Demos</h1>
+      <p>Simple website examples for local businesses.</p>
+    </header>
+
+    <div class="grid">
+      <a href="cleaning/" class="card">
+        <span>🧽</span>
+        <strong>Cleaning services</strong>
+      </a>
+
+      <a href="electrician/" class="card">
+        <span>⚡</span>
+        <strong>Electricians</strong>
+      </a>
+
+      <a href="plumber/" class="card">
+        <span>🚰</span>
+        <strong>Plumber / Sanitary</strong>
+      </a>
+
+      <a href="handyman/" class="card">
+        <span>🛠️</span>
+        <strong>Handyman / Repairs</strong>
+      </a>
+
+      <a href="restaurant/" class="card">
+        <span>🍽️</span>
+        <strong>Restaurants</strong>
+      </a>
+
+      <a href="cafe/" class="card">
+        <span>☕</span>
+        <strong>Cafés</strong>
+      </a>
+
+      <a href="bakery/" class="card">
+        <span>🥐</span>
+        <strong>Bakery / Pastry</strong>
+      </a>
+
+      <a href="moving/" class="card">
+        <span>🚚</span>
+        <strong>Moving services</strong>
+      </a>
+    </div>
+
+    <footer>
+      Website demos by Vidal Reñao
+    </footer>
+  </div>
+
+</body>
+</html>
